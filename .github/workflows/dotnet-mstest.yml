@@ -20,9 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Navigate to target folder
-      run: cd MSTestTestFramework
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./MSTestTestFramework/MSTestTestFramework.sln
     - name: Test
-      run: dotnet test --verbosity normal
+      run: dotnet test ./MSTestTestFramework/MSTestTestFramework.sln --verbosity normal
