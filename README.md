@@ -3,7 +3,8 @@
 Automation testing framework (API) - an example. Based on C#, .Net8, MSTest, XUnit, Refit
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v27/blob/master/LICENSE)
-[![Tests](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet.yml/badge.svg)](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet.yml)
+[![MSTest tests](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet-mstest.ymll/badge.svg)](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet-mstest.yml)
+[![XUnit tests](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet-xunit.yml/badge.svg)](https://github.com/BurhanH/automaton-v27/actions/workflows/dotnet-xunit.yml)
 ![](https://badgen.net/static/made/by%20human/green)
 
 This testing framework to test REST API for [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com). Simple calls like GET, PATCH, DELETE.
